@@ -63,7 +63,7 @@ def get_languages():
 
 
 class WelcomeView(BaseView):
-    title = "Willkommen! Bienvenue! Welcome! Добро пожаловать! Welkom!"
+    title = "Welcome to HyperOS"
 
     def __init__(self, controller, cur_lang, serial):
         self.controller = controller
